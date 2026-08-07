@@ -42,8 +42,8 @@ shared theme + 12 chart recipes with chart-choice guide is compared against defa
 ## Reproduce
 
 ```bash
-git clone https://github.com/divyantpratap/12-energy-viz-lab.git
-cd 12-energy-viz-lab
+git clone https://github.com/divyantpratap/energy-viz-lab.git
+cd energy-viz-lab
 make setup
 make data    # downloads into data/raw (not committed)
 make run     # train + evaluate + figures
@@ -53,7 +53,7 @@ make test
 ## Project structure
 
 ```
-12-energy-viz-lab/
+energy-viz-lab/
 ├── README.md
 ├── Makefile
 ├── requirements.txt
